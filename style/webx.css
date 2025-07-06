@@ -1,0 +1,290 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+main{
+    /* background-color: rgb(16, 36, 72); */
+    background-color: #303453;
+    height: 600px;
+
+}
+.webx{
+    padding-top: 20px;
+    padding-left: 40px;
+    
+}
+.mainnav{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 130px;
+    
+}
+
+.Cfeatures{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    list-style: none;
+}
+.Cfeatures a{
+    text-decoration: none;
+}
+.freebutton{
+    background-color: greenyellow;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    border: transparent;
+}
+.info{
+    color: white;
+    
+}
+.buttons{
+    background-color: rgb(199, 60, 60);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: transparent;
+}
+.storeabout{
+    color: white;
+    line-height: 60px;
+    font-size: 30px;
+    font-weight: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sellp{
+    padding-top: 20px;
+    line-height: 25px;
+    color: white;
+}
+.buttons{
+    margin: 35px;
+    padding: 20px;
+    color: white;
+    font-weight: 200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    
+}
+.store{
+    display: flex;
+    justify-content: space-around;
+    margin-top:40px;
+}
+.app{
+    color: white;
+    line-height: 60px;
+}
+
+
+.services{
+    display: flex;
+    flex: row;
+    justify-content: space-around;
+    
+}
+.prdouctinfo{
+    font-size: 30px;
+    font-weight: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.online{
+    padding: 80px;
+}
+.dseignp{
+    line-height: 30px;
+    padding-top: 20px;
+    color: rgb(120, 106, 106);
+}
+.learns {
+    line-height: 100px;
+    list-style: none;
+    font-size: 21px;
+}
+.learns a {
+    text-decoration: none;
+}
+
+.AdvertismentSection{
+    height: 700px;
+    width: 100%;
+    background-color: #F4F7FA;
+    padding-top: 80px;
+    border-radius: 10px;
+    
+
+}
+.adins{
+    text-align: center;
+    padding-bottom: 50px;
+    line-height: 20px;
+}
+.inspired{
+    font-size: 40px;
+}
+.store{
+    color: rgb(88, 85, 85);
+    font-size: 20px;
+}
+.Computerzone{
+    background-color: white;
+    border-radius: 20px;
+    
+    
+}
+.Computerzone img{
+    border-radius: 20px;
+
+}
+
+ .tech{
+    padding-left: 30px;
+    
+ }
+ .zonespace{
+    padding-bottom: 20px;
+    line-height: 30px;
+ }
+  .Etech{
+    padding-top: 15px;
+    color: rgb(123, 116, 116);
+  }
+
+.card{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.Marketbussiness{
+    background-color: white;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+.fontsize{
+    font-size: 50px;
+}
+.Growb{
+    padding-top: 150px;
+    padding-left: 60px;
+}
+.salespr{
+    color: rgb(101, 92, 92);
+    line-height: 22px;
+    padding-top: 25px;
+}
+.adsgrow {
+  position: relative;
+  width: fit-content;
+  display: inline-block;
+}
+
+.adsgrow img {
+  display: block;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+  position: relative;
+  border-radius: 16px;
+}
+
+.colros {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: #fddede; /* soft pink */
+  border-radius: 50%;
+  bottom: 60px; /* Adjust vertically */
+  left: 10px;   /* Adjust horizontally */
+  z-index: 1; /* behind the image */
+}
+
+.paymentmethod{
+    display: flex;
+    background-color: #F4F7FA;
+    height: 500px;
+    position: relative;
+    justify-content: space-center;
+    padding-top: 100px;
+    padding-left: 150px;
+
+}
+.shopcart {
+    position: relative;
+    display: block;  
+}
+.greencir{
+    height: 200px;
+    width: 200px;
+    background-color: #DAF1E4;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 60px;
+    z-index: 1;
+    
+ 
+}
+.shopcart img{
+    z-index: 2;
+    position: relative;
+}
+.payment{
+    padding-top: 100px;
+    padding-left: 60px;
+}
+.mpayment{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.paymentnumber{
+    color: rgb(109, 103, 103);
+    line-height: 24px;
+    padding-top: 30px;
+    
+}
+.footer{
+    background-color: #13151C;
+    height: 300px;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    padding-top: 70px;
+}
+.webxdesc{
+    color: rgb(147, 136, 136);
+    line-height: 25px;
+}
+.products{
+    line-height: 35px;
+    list-style: none;
+}
+
+ul{
+    padding-left: 0px;
+    list-style: none;
+}
+
+li:hover {
+    color: rgb(83, 152, 77);
+}
+
+.footercolors{
+    color: rgb(147, 142, 142);
+    
+}
+.footerend{
+    background-color: #13151C;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 45px;
+    color: white;
+    border-top: 1px solid rgb(47, 44, 60);
+
+}
